@@ -49,4 +49,4 @@ $PAGE->navbar->add ( get_string ( 'tools', 'local_inventory' ), 'reservar.php' )
 echo $OUTPUT->header (); // Imprime el header
 echo $OUTPUT->heading ( get_string ( 'inventory', 'local_inventory' ) );
 echo "hola acá está el body del plugin";
-echo $OUTPUT->footer (); // imprime el footer
+echo $OUTPUT->footer (); 
