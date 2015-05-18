@@ -28,5 +28,6 @@ $string['pluginname'] = 'Inventory';
 $string['title'] = 'Inventory';
 $string['inventory'] = 'inventory';
 $string['tools'] = 'Tools';
+$string['student'] ='Student';
 $string['yourstringid'] = 'String you want to display';
 

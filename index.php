@@ -48,5 +48,25 @@ $PAGE->navbar->add ( get_string ( 'tools', 'local_inventory' ), 'reservar.php' )
 
 echo $OUTPUT->header (); // Imprime el header
 echo $OUTPUT->heading ( get_string ( 'inventory', 'local_inventory' ) );
-echo "hola acá está el body del plugin";
+?>
+<table  border="1" align="left">
+   <tr>
+    <th> <?php  echo get_string('tools', 'local_inventory') ?> </th>
+  </tr>
+  <tr>
+    <td>  Martillo  </td>
+  </tr>
+ 
+</table>
+
+<table  border="1" align="center">
+  <tr>
+    <th> <?php  echo get_string('student', 'local_inventory') ?></th>
+  </tr>
+  <tr>
+    <td> Felipe Martillo</td>
+  </tr>
+ 
+</table>
+<?php
 echo $OUTPUT->footer (); 
